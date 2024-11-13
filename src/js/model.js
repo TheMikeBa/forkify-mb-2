@@ -12,7 +12,7 @@ export const state = {
   bookmarks: [],
 };
 
-createRecipeObject = function (data) {
+const createRecipeObject = function (data) {
   const { recipe } = data.data;
   return {
     cookingTime: recipe.cooking_time,
